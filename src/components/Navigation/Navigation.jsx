@@ -10,7 +10,7 @@ function Navigation() {
           <Link className="nav__link" to="/facebook-post">Facebook Post</Link>
         </li>
         <li className="nav__item">
-          <Link className="nav__link" to="/facebook-message">Facebook Message</Link>
+          <Link className="nav__link" to="/facebook-friend-request">Facebook Friend Request</Link>
         </li>
         <li className="nav__item">
           <Link className="nav__link" to="/whatsapp">WhatsApp</Link>
