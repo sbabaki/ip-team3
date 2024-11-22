@@ -1,12 +1,11 @@
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation.jsx";
-import FacebookFriendRequestPage from "./pages/FacebookMessagePage/FacebookFriendRequestPage.jsx";
+import FacebookFriendRequestPage from "./pages/FacebookFriendRequestPage/FacebookFriendRequestPage.jsx";
 import FacebookPostPage from "./pages/FacebookPostPage/FacebookPostPage.jsx";
 import WhatsAppPage from "./pages/WhatsappPage/WhatsappPage.jsx";
 
 function App() {
-  console.log("hello");
 
   return (
     <BrowserRouter>
