@@ -26,6 +26,7 @@ export default function FacebookFriendRequestPage() {
             </div>
             <div className="fb-fr-rq__profile-info">
               <h3>James Morrison</h3>
+              <div className="fb-fr-rq__alert-container">
               <p className="fb-fr-rq__risk-level fb-fr-rq__risk-level--high">
                 ⚠️ High Risk
               </p>
@@ -33,6 +34,7 @@ export default function FacebookFriendRequestPage() {
                 <button className="fb-fr-rq__ai-button">
                 🌟 Learn Why With AI Assistant
                 </button>
+              </div>
               </div>
               <p>
                 <strong>Mutual Friends:</strong> 0
